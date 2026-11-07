@@ -1,7 +1,19 @@
-# 系统文件
-.DS_Store
-Thumbs.db
-#node
+# dependencies
 node_modules/
-dist
 
+# next.js
+.next/
+out/
+
+# production
+build/
+dist/
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+
+# misc
+.DS_Store
+*.log
+.env*
